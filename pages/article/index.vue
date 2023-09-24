@@ -42,7 +42,7 @@ export default {
       } catch (e) {
         console.log("[ERROR] completed fetching with error: ", e);
         alert(
-          "Maaf API yang digunakan adalah masih paket gratisan, jadi hanya bs web hanya bs di run dari localhost bukan domain publik, karena kalau domain publik bakal kena CORS"
+          "Maaf API yang digunakan (newsdata.io) masih menggunakan paket gratisan (development plan), sehingga web hanya bisa dijalankan dari localhost dan bukan dari domain publik, karena kalau domain publik bakal kena CORS"
         );
         return;
       }
