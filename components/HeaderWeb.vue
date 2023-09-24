@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Taskist</a>
+      <a class="navbar-brand" href="#">Asrofil Fachrul Riidlo</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -17,6 +17,11 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/article"
+              >Article</a
+            >
           </li>
         </ul>
       </div>
