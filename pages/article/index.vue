@@ -41,6 +41,9 @@ export default {
         );
       } catch (e) {
         console.log("[ERROR] completed fetching with error: ", e);
+        alert(
+          "Maaf API yang digunakan adalah masih paket gratisan, jadi hanya bs web hanya bs di run dari localhost bukan domain publik, karena kalau domain publik bakal kena CORS"
+        );
         return;
       }
       console.log("[INFO] completed fetching...");
