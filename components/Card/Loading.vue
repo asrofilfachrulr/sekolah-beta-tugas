@@ -1,7 +1,7 @@
 <template>
   <div
     class="col-6 col-md-3 border border-1 rounded border-dark-subtle p-0 m-0 overflow-hidden"
-    style="height: 300px; max-width: 200px"
+    style="height: 300px"
   >
     <div class="card-header overflow-hidden h-50 p-0 m-0 placeholder-wave">
       <span class="w-100 placeholder h-100" />
