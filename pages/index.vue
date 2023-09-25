@@ -11,13 +11,13 @@
           :class="'btn btn-success'"
           :style="'width: fit-content; height: fit-content'"
           to="/task"
-          >Tugas Task</nuxt-link
+          >Tugas 03 - Task (Form & Event Handler)</nuxt-link
         >
         <nuxt-link
           :class="'btn btn-success'"
           :style="'width: fit-content; height: fit-content'"
           to="/article"
-          >Tugas Artikel</nuxt-link
+          >Tugas 04 - Artikel (Routing)</nuxt-link
         >
       </div>
     </div>
